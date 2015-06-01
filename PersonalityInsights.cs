@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,12 +21,11 @@ namespace PersonalityInsights
  
 	 static void doStuff() {
  
-		Console.Write("starting");
+		Console.Write("Starting!");
         string text = System.IO.File.ReadAllText("/bio.txt");
         StringBuilder uri = new StringBuilder();
-        uri.Append(baseURL).Append('/').Append("&outputMode=xml");
-		HttpWebRequest profileRequest = (HttpWebRequest)WebRequest.Create(baseURL);
-         string _auth = string.Format("{0}:{1}",username,password);
+       	HttpWebRequest profileRequest = (HttpWebRequest)WebRequest.Create(baseURL);
+        string _auth = string.Format("{0}:{1}",username,password);
         string _enc = Convert.ToBase64String(Encoding.ASCII.GetBytes(_auth));
         string _cred = string.Format("{0} {1}", "Basic", _enc);
          profileRequest.Headers[HttpRequestHeader.Authorization] = _cred;
@@ -47,23 +46,16 @@ namespace PersonalityInsights
          {
              using (StreamReader sr = new StreamReader(webResponse.GetResponseStream()))
              {
-                 response = sr.ReadToEnd();//.Trim();
+                 response = sr.ReadToEnd();
                  dynamic formatted = JsonConvert.DeserializeObject(response);
                  JsonConvert.SerializeObject(formatted, Formatting.Indented);
                  file.Write(formatted);
                  Console.Write(formatted);
-                // System.IO.File.WriteAllText("C:/Users/Achal Shantharam/Documents/Visual Studio 2010/Projects/ConsoleApplication4/Output.json", formatted);
                  sr.Close();
              }
              webResponse.Close();
          }
-         //System.IO.StreamWriter file = new System.IO.StreamWriter("C:/Users/Achal Shantharam/Documents/Visual Studio 2010/Projects/ConsoleApplication4/Output.json");
-     //    dynamic formatted = JsonConvert.DeserializeObject(response);
-     //    JsonConvert.SerializeObject(formatted,Formatting.Indented);
-      //   System.IO.File.WriteAllText("C:/Users/Achal Shantharam/Documents/Visual Studio 2010/Projects/ConsoleApplication4/Output.json", formatted);
-    //     Console.Write(formatted);
-       //  file.Write(formatted);
-         Console.WriteLine("done");
+         Console.WriteLine("Done!");
          Console.Read();
 	}
  }
