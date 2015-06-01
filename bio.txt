@@ -1,0 +1,65 @@
+Shruti Sharma
+52, Satara Market, Jaipur. 
+E-mail: shruti***@gmail.com 
+Cell: +91-99********
+
+Career Snapshot
+
+• Engineering graduate with 77% marks. 
+• Excellent knowledge in n-tier Web Application Development.
+• Identifying documents related to components and maintaining detailed study of the same as per the requirement changes.
+• Understanding the technical & functional specifications
+• Ability to Work within a dynamic team environment through flexible and adaptable approach.
+• To become excellent team player with positive "can do" attitude.
+• Ability to adopt new technologies quickly.
+• Ability to work well under pressure within guidelines.
+• Excellent written and verbal communication skills.
+• Team oriented, innovative and a self-starter.
+
+Technical Skills Set
+
+Programming Languages : Core Java and J2EE 
+Operating system : Windows XP, 2003, Unix
+ORM : Hibernate, DAO
+Packages : MS-Office Application Development : Tomcat and GlassFish 
+Server Side : Struts
+Database : MySQL , MS Access, Oracle
+IDE : NetBeans, Eclipse
+Framework : Spring
+
+Projects Undertaken
+
+Project Name : Supply Request for quotation(SRFQ) LIVE project
+Environment: Windows 2003, JSP, Servlet, DAO, Tomcat, Hibernate, Struts 
+Front End: Java and J2EE
+Back end: MySql
+Description: The modules covered include: Security request specification, Configure supplier, Quotation posting technical analysis, Financial Analysis, Admin approval, Simple request supplier, Sampling confirmation , Sample technical approval, Sample operational approval, Admin sample approval for order
+
+Project Name: Payroll Management System
+Environment: Windows 2003 , JSP, Servlet, JDBC, Tomcat 
+Front End: Java and J2EE
+Back end: SQL Server 2000
+Description: This project takes efficient care of employee’s salary records using SDLC for efficient performance. 
+
+Project Name: Human Resource Management System
+Environment: Windows 2003 , JSP, Servlet, JDBC, Tomcat 
+Front End: Java and J2EE
+Back end: MySql
+Description: This project efficiently takes care of overall HR functions from job advertise to candidates joining and salary to leave records. Project comprises of more than 22 forms and efficient modular structure so that updating one does not disturb another. Software Development Life Cycle has been used for efficient development of the software.
+
+Trainings
+
+• 15 days training in B.S.N.L. learning basic knowledge in CDOT and Wireless Communications and working of a basic Exchange.
+• 45 days training from ITBS. Exposure of basic knowledge of J2EE.
+• 3 months training from Dell. Exposure to live project and advanced J2EE.
+
+Educational Qualifications
+
+• BE from Rajasthan university with 77% marks in 2011. 
+• HSC from Rajasthan board in 2007 with 70% marks
+• SSC from Rajasthan board in 2005 with 68% marks
+
+Personal Details
+
+Date of Birth: 22nd April 19**
+Languages known: English, Hindi, Oriya
